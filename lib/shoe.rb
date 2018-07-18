@@ -45,7 +45,7 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-    @condition = "new" #already in the class, so don't need to call Shoe.condition
+    @condition = "new" #already in the class, so don't need to call Shoe.condition = "new"
   end
 
 
